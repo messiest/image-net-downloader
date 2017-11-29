@@ -201,4 +201,4 @@ if __name__ == "__main__":
     try:
         main(sys.argv[1], sample=sys.argv[2])                                                               # allow command line input
     except IndexError:
-        main(10000)                                                           # execute whole script
+        main(10000)                                                                     # execute whole script
